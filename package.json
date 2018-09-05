@@ -1,6 +1,6 @@
 {
   "name": "xmpp-muc-read-marker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple plugin to send read marker with Stanza.io",
   "main": "dist/index.js",
   "scripts": {
