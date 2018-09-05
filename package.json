@@ -2,9 +2,15 @@
   "name": "xmpp-muc-read-marker",
   "version": "1.0.0",
   "description": "Simple plugin to send read marker with Stanza.io",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "dist": "babel --compact --minified lib/index.js -o dist/index.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
